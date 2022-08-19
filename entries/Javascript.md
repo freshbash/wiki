@@ -1,0 +1,1 @@
+Javascript(JS) is a high-level interpreted programming language.

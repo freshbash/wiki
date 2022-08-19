@@ -1,0 +1,1 @@
+SQL (Structured Query Language) is a language to interact with relational databases.
