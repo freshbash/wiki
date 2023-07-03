@@ -1,0 +1,1 @@
+Pascal is an imperative and procedural programming language.

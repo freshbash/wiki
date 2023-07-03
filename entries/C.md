@@ -1,1 +1,1 @@
-C is a low-level programming language.
+C is a statically-typed programming language.
