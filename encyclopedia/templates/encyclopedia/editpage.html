@@ -6,12 +6,13 @@
 
 {% block body %}
     <form action="{% url 'edit' title %}" method="post">
-        {% csrf_token %}
-        <div>
-            <textarea name="content">{{ precontent }}</textarea>
+        {% csrf_token %}        
+        <div class="text-input">
+            <h1>Edit {{ title }}</h1>
+            <textarea class="input" name="content">{{ precontent }}</textarea>
         </div>
-        <div>
-            <input type="submit" value="Submit Changes">
+        <div class="button">
+            <input class="btn btn-secondary" type="submit" value="Submit Changes">
         </div>
     </form>
 {% endblock %}
